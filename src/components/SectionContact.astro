@@ -33,7 +33,7 @@
       <div class="col-md-1"></div>
       <div class="col-md-6 ftco-animate">
         <h1>e-Newsletter Subscribe</h1>
-        <form action="#" class="contact-form">
+        <form action="https://getform.io/f/a55e104f-09db-473a-a7a3-3e2012564698" method="post" class="contact-form">
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
@@ -41,6 +41,7 @@
                   type="text"
                   class="form-control"
                   placeholder="Your Name"
+                  name="name"
                 />
               </div>
             </div>
@@ -50,22 +51,24 @@
                   type="text"
                   class="form-control"
                   placeholder="Your Email"
+                  name="email"
                 />
               </div>
             </div>
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Subject" />
+            <input type="text" class="form-control" placeholder="Subject" name="subject" />
           </div>
           <div class="form-group">
             <textarea
-              name=""
+              name="message"
               id=""
               cols="30"
               rows="7"
               class="form-control"
               placeholder="Message"></textarea>
           </div>
+          <input type="hidden" name="_gotcha" style="display:none !important;" />
           <p>No spam, we promise. Unsubscribe anytime.</p>
           <div class="form-group">
             <input
