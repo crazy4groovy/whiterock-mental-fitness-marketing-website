@@ -1,0 +1,52 @@
+---
+const { src = "https://www.youtube-nocookie.com/embed/DxIDKZHW3-E?start=3" } =
+  Astro.props;
+---
+
+<section class:list={["ftco-section d-md-flex bg-light"]}>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10 text-center video-container">
+        <iframe
+          src={src}
+          title="Mental Health"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  section::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 90px;
+    background-color: hsl(321, 40%, 92%);
+    position: absolute;
+    top: 50%;
+  }
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>

@@ -1,15 +1,28 @@
-# Welcome to [Astro](https://astro.build)
+# Welcome to White Rock Mental Fitness
+
+- [live](https://whiterockmentalfitness.com)
+- [vercel](https://whiterock-mental-fitness.vercel.app/)
 
 ## Links
 
-- [Dave's book](https://www.amazon.com/The-Mentally-ill-Mentor/dp/B08K58MTTX)
-- [Dave's podcast](https://anchor.fm/dave-miller85)
+- [Dave's book](https://www.amazon.com/Mentally-Ill-Mentor-Principles-Maintaining/dp/148105869X)
+- [Dave's podcast Audible](https://www.amazon.com/The-Mentally-ill-Mentor/dp/B08K58MTTX)
+- [Dave's podcast AnchorFM](https://anchor.fm/dave-miller85)
+
+## HTML
+
+- Template source: [ThemeWagon: yogalax](https://themewagon.com/themes/free-responsive-bootstrap-4-html5-yoga-fitness-website-template-yogalax/)
+- Built with: [Astro](https://astro.build)
+
+## LOGO source
+
+[flaticon](https://www.flaticon.com/free-icon/mountain_4135890?related_id=4135908&origin=search)
 
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
 
-```
+```bash
 /
 ├── public/
 │   └── favicon.svg

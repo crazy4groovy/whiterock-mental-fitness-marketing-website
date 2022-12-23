@@ -12,19 +12,26 @@ import SectionBlogPosts from "../components/SectionBlogPosts.astro";
 import SectionGallery from "../components/SectionGallery.astro";
 import Footer from "../components/Footer.astro";
 import Loader from "../components/Loader.astro";
+import SectionContact from "../components/SectionContact.astro";
+import SectionMessage from "../components/SectionMessage.astro";
+import SectionFAQ from "./SectionFAQ.astro";
+import SectionVideo from "../components/SectionVideo.astro";
 ---
 
 <MainLayout>
   <Nav />
   <SectionHero />
+  <SectionVideo />
   <SectionIntro />
-  <!-- <SectionServices />
-  <SectionImageGrid />
-  <SectionPricing />
   <SectionTestimony />
-  <SectionCounters />
-  <SectionBlogPosts />
-  <SectionGallery /> -->
+  <SectionFAQ />
+  <!-- <SectionServices /> -->
+  <!-- <SectionImageGrid /> -->
+  <!-- <SectionPricing /> -->
+  <!-- <SectionCounters /> -->
+  <!-- <SectionBlogPosts /> -->
+  <!-- <SectionGallery /> -->
+  <SectionContact />
   <Footer />
   <Loader />
 </MainLayout>
