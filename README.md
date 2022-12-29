@@ -19,6 +19,10 @@
 
 [flaticon](https://www.flaticon.com/free-icon/mountain_4135890?related_id=4135908&origin=search)
 
+## Google Analytics
+
+[Stream Info](https://analytics.google.com/analytics/web/#/a252857151p347706063/admin/streams/table/4385636955)
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
