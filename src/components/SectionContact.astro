@@ -19,7 +19,8 @@
             <p>
               <span>Email:</span>
               <a href="mailto:info@yoursite.com"
-                >dave@whiterockmentalfitness.com</a>
+                >dave@whiterockmentalfitness.com</a
+              >
             </p>
           </div>
           <div class="col-md-12 mb-3">
@@ -33,7 +34,11 @@
       <div class="col-md-1"></div>
       <div class="col-md-6 ftco-animate">
         <h1>e-Newsletter Subscribe</h1>
-        <form action="https://getform.io/f/a55e104f-09db-473a-a7a3-3e2012564698" method="post" class="contact-form">
+        <form
+          action="https://getform.io/f/a55e104f-09db-473a-a7a3-3e2012564698"
+          method="post"
+          class="contact-form"
+        >
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
@@ -42,6 +47,7 @@
                   class="form-control"
                   placeholder="Your Name"
                   name="name"
+                  id="name-input"
                 />
               </div>
             </div>
@@ -52,28 +58,44 @@
                   class="form-control"
                   placeholder="Your Email"
                   name="email"
+                  id="email-input"
                 />
               </div>
             </div>
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Subject" name="subject" />
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Subject"
+              name="subject"
+              id="subject-input"
+            />
           </div>
           <div class="form-group">
             <textarea
               name="message"
-              id=""
+              id="message-input"
               cols="30"
               rows="7"
               class="form-control"
               placeholder="Message"></textarea>
           </div>
-          <input type="hidden" name="_gotcha" style="display:none !important;" />
+          <input
+            type="hidden"
+            id="middle-name-input"
+            name="_gotcha"
+            style="display:none !important;"
+          />
           <p>No spam, we promise. Unsubscribe anytime.</p>
+          <p class="bold">
+            BONUS: Subscribe TODAY and receive an invitation to our exclusive
+            App Advisory Board! Limited-time offer.
+          </p>
           <div class="form-group">
             <input
               type="submit"
-              value="Sign Up"
+              value="Subscribe"
               class="btn btn-primary py-3 px-5"
             />
           </div>
@@ -82,3 +104,9 @@
     </div>
   </div>
 </section>
+
+<style>
+  .bold {
+    font-weight: bold;
+  }
+</style>
